@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: Frensware
 
-import "./AntiBotHelper.sol";
+import "./BotRepellant.sol";
 import "./FeeHelper.sol";
 import "./Operatable.sol";
 import "./ERC20.sol";
