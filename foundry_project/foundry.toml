@@ -1,0 +1,15 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc = "0.8.19"
+optimizer = true
+optimizer_runs = 200
+
+# Enable the solidity compiler to find our contract's import statements
+remappings = [
+    'solady/=lib/solady/src/',
+    'forge-std/=lib/forge-std/src/',
+]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
