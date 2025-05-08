@@ -1,0 +1,6 @@
+[submodule "foundry_project/lib/forge-std"]
+	path = foundry_project/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "foundry_project/lib/solady"]
+	path = foundry_project/lib/solady
+	url = https://github.com/vectorized/solady
