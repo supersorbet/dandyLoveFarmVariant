@@ -10,6 +10,7 @@ import {IERC20} from "./interfaces/IERC20.sol";
 
 /// @title DandyFarmV2
 /// @notice Staking contract for LP tokens to earn Dandy tokens with gas optimizations
+/// @author sorbet
 contract DandyFarmV2 is Ownable, ReentrancyGuard {
     
     error InvalidPool();
