@@ -10,7 +10,8 @@ import {IUniswapV2Router} from "./interfaces/IUniswapV2Router.sol";
 import {IERC20} from "./interfaces/IERC20.sol";
 
 /// @title DandyV2
-/// @notice optimized ERC20 token with anti-bot protection and fee mechanism
+/// @notice optimized ERC20 token with anti-bot protection and fees
+/// @author sorbet
 contract DandyV2 is ERC20, Ownable {
     using SafeTransferLib for address;
     using FixedPointMathLib for uint256;
