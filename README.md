@@ -1,5 +1,9 @@
 # DandyLoveFarm V2
 
+All UPDATED contracts in the `contracts/V2` directory:
+- Main token: `DandyV2.sol`
+- Farming contract: `DandyFarmV2.sol`
+
 MasterChef V2 style staking/farming contract and a yield token with some semi-superpower functions.
 
 ### DandyV2 Token
@@ -18,13 +22,6 @@ MasterChef V2 style staking/farming contract and a yield token with some semi-su
 - Configurable deposit fees
 - Emergency withdrawal functionality
 - Block-based reward distribution
-
-## Implementation
-
-All UPDATED contracts in the `contracts/V2` directory:
-- Main token: `DandyV2.sol`
-- Farming contract: `DandyFarmV2.sol`
-
 ## 💡
 
 1. Get DandyV2
